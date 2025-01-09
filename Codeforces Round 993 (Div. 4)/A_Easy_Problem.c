@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int n, num;
@@ -9,6 +9,6 @@ int main()
         scanf("%d", &num);
         printf("%d\n", num - 1);
     }
-     
+
     return 0;
 }

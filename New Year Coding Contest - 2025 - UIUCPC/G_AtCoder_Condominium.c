@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int k, l, sum = 0;
-    scanf("%d %d", &k , &l);
+    scanf("%d %d", &k, &l);
 
     for (int i = 1; i <= k; i++)
     {
@@ -14,6 +14,6 @@ int main()
     }
 
     printf("%d\n", sum);
-    
+
     return 0;
 }

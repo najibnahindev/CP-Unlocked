@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 int main()
 {
     int n;
@@ -12,12 +12,14 @@ int main()
 
         for (int j = 0; str[j] != '\0'; j++)
         {
-            if(str[j] == 'p') str[j] = 'q';
-            else if(str[j] == 'q') str[j] = 'p';
+            if (str[j] == 'p')
+                str[j] = 'q';
+            else if (str[j] == 'q')
+                str[j] = 'p';
         }
         int length = strlen(str);
 
-        for(int i = 0, j = length -1; i <= j; i++, j--)
+        for (int i = 0, j = length - 1; i <= j; i++, j--)
         {
             int temp = str[i];
             str[i] = str[j];
@@ -26,6 +28,6 @@ int main()
 
         printf("%s\n", str);
     }
-    
+
     return 0;
 }
